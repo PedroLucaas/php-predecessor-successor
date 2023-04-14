@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Timmana', sans-serif;
+}
+
+
+body {
+        background-color: #143d59;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+.container {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        background-color: #9d958c;
+        padding-top: 2%;
+        border-radius: 5%;
+        box-shadow: 10px 10px 35px 2px rgba(255, 255, 255, 0.75);
+}
+
+p {
+        color: #143d59;
+        font-size: xx-large;
+        font-weight: bolder;
+}
+
+button {
+        background-color: transparent;
+        border: 2px solid;
+        border-radius: 0.6em;
+        cursor: pointer;
+        margin: 5vh 20px 20px 20px;
+        padding: 1em 2em;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+
+        border-color: #f4b41a;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #f4b41a inset, 0 0 0 0 #f4b41a;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+}
+
+button:hover,
+button:focus {
+        color: #fff;
+        outline: 0;
+        box-shadow: 0 0 10px 0 #f4b41a inset, 0 0 10px 4px #f4b41a;
+}
